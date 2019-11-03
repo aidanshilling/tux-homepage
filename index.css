@@ -1,0 +1,97 @@
+* {
+	font-family: 'Muli', sans-serif;
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 2.5rem;
+	color: #010038;
+}
+
+button {
+	color: #010038;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 200px;
+	margin-top: 25px;
+	background-color: rgb(215, 219, 223);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: #010038;
+	color: white;
+	cursor: pointer;
+}
+
+.header {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5rem;
+}
+
+.header h1 {
+	font-size: 6em;
+	letter-spacing: 5px;
+	margin: 0px;
+}
+
+.header p {
+	margin: 0px;
+	font-size: 1.8rem;
+	padding-bottom: 10px;
+	color: #f39422;
+}
+
+.flex-grid {
+	padding: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.flex-box {
+	text-align: center;
+	width: 30rem;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 20px;
+	position: fixed;
+	color: #010038;
+}
+
+.pproj {
+	color: white;
+}
+
+.flex-box h3 {
+	padding-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #010038;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+a:hover {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	font-size: 1.2rem;
+	color: #f39422;
+	cursor: pointer;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.links {
+	padding: 30px;
+}
